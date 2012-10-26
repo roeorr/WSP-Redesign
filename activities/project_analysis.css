@@ -1,0 +1,37 @@
+/* css for project analysis */
+
+/* Body of Project analysis */
+
+body{
+	font: 100%/1.25   Helvetica, Verdana, sans-serif;
+	border: 10px solid #000;
+	margin: 10px auto;
+	width: 960px;
+	padding: 20px;
+	box-shadow: -10px 10px 10px #787878;
+}
+
+header{
+	border-bottom: 2px solid #D8D8D8;
+	margin: 5px 0;
+}
+
+h2{
+	color: #00CC99;
+}
+
+ul{
+	font-size: 1em;
+}
+
+h3{
+	color: #6666CC;
+}
+
+h4{
+	color: #993333;
+}
+
+span{
+	color: #000;
+}
