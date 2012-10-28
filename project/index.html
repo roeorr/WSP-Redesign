@@ -5,6 +5,10 @@
 		<title>Top Stone, Inc.</title>
 		<meta charset="utf-8"/>
 		<link href="css/global.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="includes/marquee.css" />
+		<script type="text/javascript" src="includes/jquery-1.6.min.js"></script>
+		<script type="text/javascript" src="includes/farinspace/jquery.imgpreload.min.js"></script>
+		<script type="text/javascript" src="includes/marquee.js"></script>
 	</head>
 	
 	<body>
@@ -32,11 +36,53 @@
 				<p> Call & Order Today<br/> to Receive<br/> 5% Off!<br/>1(800) 476-3356</p>		
 			</aside>
 			
-			<section class="videos">
-				<img src="images/marble_fountain.jpg" alt="Four beautiful custom made
-				marble fountains"/>	
-					
+			<section class="marquee">
+			
+				<div class="marquee_container">
+					<div class="marquee_photos"></div>
+					<div class="marquee_caption">
+						<div class="marquee_caption_content"></div>
+					</div>
+					<div class="marquee_nav"></div>
+				</div>
+				
+				<div class="marquee_panels">
+					<!-- Panel -->
+					<div class="marquee_panel">
+						<img class="marquee_panel_photo" src="images/photos/stone_fountain.jpg" 
+						alt="London" width="100" />
+						<div class="marquee_panel_caption">
+							<h2>Stone Fountains</h2>
+							<p>Stone fountains made from the finest stone and handcrafted to
+							fit your custom needs</p>
+							 <p><a href="contact.html">Order Now!</a></p>
+						</div>
+					</div>
+					<!-- Panel -->
+					<div class="marquee_panel">
+						<img class="marquee_panel_photo" src="images/photos/marble_fountain.jpg" 
+						alt="Marble Fountain" width="100" />
+						<div class="marquee_panel_caption">
+							<h2>Marble Fountains</h2>
+							<p>Quad custom made Marble Fountains. We have the finest marble
+							fountains in the world</p>
+							<p><a href="contact.html">Order Now!</a></p>
+						</div>
+					</div>
+					<!-- Panel -->
+					<div class="marquee_panel">
+						<img class="marquee_panel_photo" src="images/photos/sports_fountain.jpg" 
+						alt="Sports Fountain" width="100" />
+						<div class="marquee_panel_caption">
+							<h2>Sport Fountain</h2>
+							<p>Custom made basketball fountain. We can create a fountain of
+							just about anything you desire</p>
+							<p><a href="contact.html">Order Now!</a></p>
+						</div>
+					</div>
+				</div>				
 			</section>
+			
 		</section>
 	
 		<footer>
