@@ -1,4 +1,145 @@
+/*------- css reset---------*/
 *{
 	margin: 0;
 	padding: 0;
+}
+
+/*--------- Deals with entire body of website---------*/
+
+body {
+	 font: 100%/1.25 Verdana, Helvetica, sans-serif;
+ 	 margin: 0 auto;
+ 	 max-width: 960px;
+ 	 background-color: #a8a8a8;
+	}
+	
+header{
+	width: 100%;
+	height: 124px;
+}
+
+h1 a{
+	text-decoration: none;
+	display: block;
+	color: #00ffff;
+}
+
+h1 {
+	float: left;
+	width: 30%;
+	font: 2em Dayton, Verdana, sans-serif;
+	margin-top: 20px;
+	background: #000;
+	padding: 20px 0;
+	border: 2px solid #d0d0d0;
+	border-radius: 3%;
+	text-align: center;
+}
+
+/*--------- Deals with global navigation---------*/
+nav{
+	float: left;
+}
+
+.navigation li{
+	display: block;
+	float: left;
+	list-style: none;
+	margin-left: 20px;
+	margin-top: 70px;
+}
+
+.navigation a {
+	font: 1.125em/1.5 bold; /* 18px/16px */
+	color: #d8d8d8;
+	border: 1px solid #000;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	padding: 3px;
+	width: 100%;
+	background: #404040;
+  }
+		
+.navigation a:visited{
+    color: orange;
+ }
+		   
+.navigation a:hover {
+  text-decoration: none;
+  color: #000;
+  background-color: #00ffff;
+}
+
+.navigation a:active {
+  color: white;
+  background-color: black;
+}
+	
+/*-------- deals with body content----------*/
+
+.bodycontent{
+	clear: both;
+	border: 8px solid black;
+	overflow: hidden;
+	padding: 5px;
+	margin-bottom: 10px;
+	background: #d0d0d0;
+}
+
+.cta_red_phone{
+	margin-top: 30px;
+	border: 2px solid black;
+	height: 350px;
+	float: left;
+	text-align: center;
+	font: 1.3em/1.5 bold;
+	background: #484848;
+	color: #d8d8d8;
+}
+
+.cta_red_phone p img{
+	border-bottom: 2px solid black;
+}
+
+.marquee{
+	margin-top: 30px;
+	margin-left: 20px;
+	float: left;
+	overflow: hidden;
+}
+
+.marquee_container{
+	border: 3px solid black;
+}
+
+/*---------deals with footer---------*/
+
+footer{
+	border: 2px solid black;
+	width: 80%;
+	margin: 0 auto;
+	padding: 5px;
+	background-color: #d8d8d8;
+	clear: both;
+	overflow: hidden;
+}
+
+footer p{
+	float: left;
+}
+
+.footer_nav{
+	margin-left: 60%;
+}
+
+.footer_nav li{
+	margin-left: 1%;
+	float: left;
+	list-style: none;	
+}
+
+.footer_nav a{
+	color: #000;
+	text-decoration: none;
 }

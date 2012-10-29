@@ -4,8 +4,6 @@
 /* Written by Chris Converse     */
 /* for Lynda.com                 */
 
-body { padding: 35px;background-color: #fff; font-family: Arial; color: #555; font-size: .75em; }
-
 .marquee_panels { display: none; }
 .marquee_container { position: relative; width: 700px; height: 350px; overflow: hidden; margin: 0px 0px 30px 0px; padding: 0px; }
 .marquee_photos { position: absolute; top: 0px; left: 0px; display: none; }
