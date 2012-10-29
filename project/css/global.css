@@ -16,6 +16,9 @@ body {
 header{
 	width: 100%;
 	height: 124px;
+	display: block;
+	border-bottom: 2px solid black;
+	margin-bottom: 10px;
 }
 
 h1 a{
@@ -29,7 +32,7 @@ h1 {
 	width: 30%;
 	font: 2em Dayton, Verdana, sans-serif;
 	margin-top: 20px;
-	background: #000;
+	background: #282828;
 	padding: 20px 0;
 	border: 2px solid #d0d0d0;
 	border-radius: 3%;
@@ -46,7 +49,7 @@ nav{
 	float: left;
 	list-style: none;
 	margin-left: 20px;
-	margin-top: 70px;
+	margin-top: 68px;
 }
 
 .navigation a {
@@ -82,13 +85,14 @@ nav{
 	clear: both;
 	border: 8px solid black;
 	overflow: hidden;
-	padding: 5px;
-	margin-bottom: 10px;
+	padding: 10px;
 	background: #d0d0d0;
+	display: block;
+	margin-bottom: 15px;
+	overflow: hidden;
 }
 
 .cta_red_phone{
-	margin-top: 30px;
 	border: 2px solid black;
 	height: 350px;
 	float: left;
@@ -103,7 +107,6 @@ nav{
 }
 
 .marquee{
-	margin-top: 30px;
 	margin-left: 20px;
 	float: left;
 	overflow: hidden;
