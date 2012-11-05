@@ -24,21 +24,20 @@ header{
 }
 
 h1 a{
-	text-decoration: none;
 	display: block;
-	color: #00ffff;
+	height: 120px;
 }
 
 h1 {
 	float: left;
 	width: 30%;
-	font: 2em Dayton, Verdana, sans-serif;
-	margin-top: 20px;
-	background: #282828;
-	padding: 20px 0;
-	border: 2px solid #d0d0d0;
-	border-radius: 3%;
-	text-align: center;
+	height: 108px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+	margin-top: 4px;
+	background: #a8a8a8 url(../images/logo.png) no-repeat left;
 }
 
 /*--------- Deals with global navigation---------*/
@@ -56,14 +55,19 @@ nav{
 
 .navigation a {
 	font: 1.125em/1.5 bold; /* 18px/16px */
-	color: #d8d8d8;
+	color: #000;
 	border: 1px solid #000;
+	border-radius: 5%;
 	text-decoration: none;
 	text-align: center;
 	display: block;
 	padding: 3px;
 	width: 100%;
-	background: #404040;
+  	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #09DADA), color-stop(100%, #8FACB3));
+ 	background-image: -webkit-linear-gradient(top, #09DADA, #8FACB3);
+ 	background-image: -moz-linear-gradient(top, #09DADA, #8FACB3);
+ 	background-image: -ms-linear-gradient(top, #09DADA, #8FACB3);
+ 	background-image: -o-linear-gradient(top, #09DADA, #8FACB3);
   }
 		
 .navigation a:visited{
@@ -72,7 +76,7 @@ nav{
 		   
 .navigation a:hover {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   background-color: #00ffff;
 }
 
@@ -86,6 +90,7 @@ nav{
 .bodycontent{
 	clear: both;
 	border: 8px solid black;
+	border-radius: 2%;
 	overflow: hidden;
 	padding: 10px;
 	background: #d0d0d0;
@@ -96,6 +101,7 @@ nav{
 
 .cta_red_phone{
 	border: 2px solid black;
+	border-radius: 2%;
 	height: 350px;
 	float: left;
 	text-align: center;
@@ -121,6 +127,7 @@ nav{
 .marquee_container { 
 	font-family: dayton; 
 	border: 3px solid black;
+	border-radius: 2%;
 	position: relative; 
 	width: 700px; 
 	height: 350px; 
@@ -204,12 +211,126 @@ nav{
 	background-position: -50px 0px; 
 }
 
+/*--------- deals with video player page-----------*/
+
+.videonav_area{
+	width: 179px;
+	float: left;	
+	border: 1px solid #000;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	height: 323px;
+	background: url(../images/sidebar_gradient.png) no-repeat ;
+}
+
+.videonav_area h2{
+	margin-top: 6px;
+	font-size: 1.05em;
+	text-align: center;
+}
+
+.video_nav{
+	width: 160px;
+	background-color: #66ccff;
+	margin-left: 10px;
+	margin-top: 15px;
+	padding-bottom: 13px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+.video_nav li{
+	list-style-type: none;
+	font-size: .95em;
+	padding-top: 15px;
+	padding-right: 4px;
+	margin-left: 12px;
+	
+}
+
+.video_nav a{
+	text-decoration: none;
+	color: #000;
+}
+
+.video_nav a:visited{
+    color: #ff9933;
+ }
+		   
+.video_nav a:hover {
+  text-decoration: none;
+  color: #000;
+  background-color: #00ffff;
+}
+
+.video_nav a:active {
+  color: white;
+  background-color: black;
+}
+
+.clear_both {line-height: 1px; }
+
+.video_gallery_container h2{
+	font-size: 1.1em;
+}
+
+.video_gallery_container {
+	float: left;
+	width: 700px;
+	padding: 10px 0px 15px 15px;
+	margin-left: 13px;
+	margin-bottom: 15px;
+	border: 2px solid #444;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	background-color: #c0c6cc;
+}
+
+a.videoLink {
+	display: block;
+	margin-left: 20px;
+	margin-top: 15px;
+	padding: 0px;
+	width: 200px;
+	height: 115px;
+	float: left;
+	position: relative;
+	cursor: pointer;
+	background: no-repeat center;
+	background-size: 200px 130px;
+	border: 2px solid #000;
+}
+
+a.videoLink img.play { position: absolute; 
+	top: 25px; 
+	left: 75px; 
+}
+a.videoLink div.caption {
+	position: absolute; 
+	width: 180px; 
+	bottom: 0px; 
+	padding: 15px 10px 10px 10px; 
+	color: #fff; 
+	background-color: rgba(0,0,0,.5);
+	font-family: Arial; 
+	font-size: 12px;
+}
+a.videoLink:hover { 
+	border-color: #fff; 
+}
 
 
 /*---------deals with footer---------*/
 
 footer{
 	border: 2px solid black;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d3d3d3), color-stop(100%, #707070));
+ 	background-image: -webkit-linear-gradient(top, #d3d3d3, #707070);
+ 	background-image: -moz-linear-gradient(top, #d3d3d3, #707070);
+ 	background-image: -ms-linear-gradient(top, #d3d3d3, #707070);
+ 	background-image: -o-linear-gradient(top, #d3d3d3, #707070);
 	width: 80%;
 	margin: 0 auto;
 	padding: 5px;
