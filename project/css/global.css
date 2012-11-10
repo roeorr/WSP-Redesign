@@ -610,10 +610,17 @@ footer p{
 		margin: 0 0 1px 0;
 		padding: 0;
 	}
-
+	
+	.bodycontent{
+		width: 92%;
+	}
+	
 	.marquee{
 		margin-left: 1%;
-		width:72%;
+	}
+	
+	.marquee_container{
+		width: 100%;
 	}
 	
 	.videonav_area{
