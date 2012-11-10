@@ -43,13 +43,14 @@ h1 {
 /*--------- Deals with global navigation---------*/
 nav{
 	float: left;
+	width: 70%;
 }
 
 .navigation li{
 	display: block;
 	float: left;
 	list-style: none;
-	margin-left: 20px;
+	margin-left: 3%;
 	margin-top: 68px;
 }
 
@@ -71,7 +72,7 @@ nav{
   }
 		
 .navigation a:visited{
-    color: #ff9933;
+    color: #000;
  }
 		   
 .navigation a:hover {
@@ -88,6 +89,7 @@ nav{
 /*-------- deals with body content----------*/
 
 .bodycontent{
+	width: 96%;
 	clear: both;
 	border: 8px solid black;
 	border-radius: 2%;
@@ -100,6 +102,7 @@ nav{
 }
 
 .cta_red_phone{
+	width: 20.5%;
 	border: 2px solid black;
 	border-radius: 2%;
 	height: 350px;
@@ -112,16 +115,23 @@ nav{
 
 .cta_red_phone p img{
 	border-bottom: 2px solid black;
+	width: 95%;
+}
+
+.cta_red_phone a{
+	color: #33FFCC;
+	width: 60%;
 }
 /*------- deals with index page images-------*/
 .marquee{
-	margin-left: 20px;
+	margin-left: 5%;
 	float: left;
 	overflow: hidden;
+	width: 70%;
 }
 
 .marquee_panels { 
-	display: none;  
+	display: none; 
 }
 
 .marquee_container { 
@@ -129,7 +139,7 @@ nav{
 	border: 3px solid black;
 	border-radius: 2%;
 	position: relative; 
-	width: 700px; 
+	width: 40em; 
 	height: 350px; 
 	overflow: hidden; 
 	margin: 0px 0px 30px 0px; 
@@ -145,7 +155,7 @@ nav{
 }
 
 .marquee_caption {
-	width: 700px;
+	width: 100%;
 	margin: 0px;
 	padding: 15px 0px 10px 0px;
 	color: #fff;
@@ -156,7 +166,7 @@ nav{
 }
 
 .marquee_caption_content { 
-	width: 410px; 
+	width: 29em; 
 	padding: 0px 0px 0px 25px; 
 }
 
@@ -180,15 +190,10 @@ nav{
 .marquee_caption a:hover { 
 	color: #fff;
  }
- 
-.marquee_flag { 
-	float: left; 
-	margin-right: 10px; 
-}
 
 .marquee_nav { 
 	position: absolute; 
-	width: 240px; 
+	width: 100%;
 	top: 310px; 
 	right: 20px; 
 	text-align: right;
@@ -196,9 +201,9 @@ nav{
 
 .marquee_nav a {
 	display: inline-block;
-	width: 18px;
+	width: 3%;
 	height: 18px;
-	margin-left: 15px;
+	margin-left: 2%;
 	background: url(../images/template/nav_buttons.png) no-repeat 0px 0px;
 	cursor: pointer;
 }
@@ -214,14 +219,14 @@ nav{
 /*--------- deals with video player page-----------*/
 
 .videonav_area{
-	width: 179px;
+	width: 18.7%;
 	float: left;	
 	border: 1px solid #000;
 	border-radius: 8px;
 	-moz-border-radius: 8px;
 	-webkit-border-radius: 8px;
 	height: 323px;
-	background: url(../images/sidebar_gradient.png) no-repeat ;
+	background: url(../images/sidebar_gradient.png) 100% no-repeat ;
 }
 
 .videonav_area h2{
@@ -231,9 +236,10 @@ nav{
 }
 
 .video_nav{
-	width: 160px;
+	width: 88%;
 	background-color: #66ccff;
-	margin-left: 10px;
+	margin-left: 6%;
+	font-size: .95em;
 	margin-top: 15px;
 	padding-bottom: 13px;
 	border-radius: 4px;
@@ -242,16 +248,16 @@ nav{
 }
 .video_nav li{
 	list-style-type: none;
-	font-size: .95em;
 	padding-top: 15px;
 	padding-right: 4px;
-	margin-left: 12px;
+	margin-left: 8%;
 	
 }
 
 .video_nav a{
 	text-decoration: none;
 	color: #000;
+	font-size: .95em;
 }
 
 .video_nav a:visited{
@@ -277,9 +283,9 @@ nav{
 
 .video_gallery_container {
 	float: left;
-	width: 700px;
+	width: 74%;
 	padding: 10px 0px 15px 15px;
-	margin-left: 13px;
+	margin-left: 4%;
 	margin-bottom: 15px;
 	border: 2px solid #444;
 	border-radius: 10px;
@@ -290,10 +296,10 @@ nav{
 
 a.videoLink {
 	display: block;
-	margin-left: 20px;
+	margin-left: 3%;
 	margin-top: 15px;
 	padding: 0px;
-	width: 200px;
+	width: 27%;
 	height: 115px;
 	float: left;
 	position: relative;
@@ -309,7 +315,7 @@ a.videoLink img.play { position: absolute;
 }
 a.videoLink div.caption {
 	position: absolute; 
-	width: 180px; 
+	width: 88%; 
 	bottom: 0px; 
 	padding: 15px 10px 10px 10px; 
 	color: #fff; 
@@ -332,11 +338,11 @@ a.videoLink:hover {
 
 .why_order{
 	float: left;
-	width: 190px;
-	height: 320px;
+	width: 17%;
+	height: 348px;
 	padding: 6px;
-	background-color: #479147;
-	border: 1px solid black;
+	background-color: #52A3CC;
+	border: 2px solid black;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -347,15 +353,15 @@ a.videoLink:hover {
 	margin-top: 20px;
 }
 .order_form{
-	height: 332px;
+	height: 360px;
 	float: left;
-	background-color: #4079B2;
-	border: 1px solid black;
+	background-color: #5CB8E6;
+	border: 2px solid black;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
-	width: 500px;
-	margin-left: 15px;
+	width: 55%;
+	margin-left: 2.5%;
 }
 
 .order_form h2{
@@ -372,7 +378,8 @@ input{
 
 textarea{
 	width: 50%;
-	margin-left: 10px;
+	height: 60px;
+	margin-left: .1%;
 	border: 1px solid black;
 }
 
@@ -382,34 +389,34 @@ textarea{
 }
 
 label{
-	margin-left: 10px;
+	margin-left: 3%;
 }
 
 .submit_button{
 	width: 40%;
 	height: 25px;
-	border: 1px solid black;
+	border: 1.5px solid black;
 	border-radius: 2px;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
-	margin-left: 145px;
+	margin-left:4%;
 	margin-top: 10px;
 }
 
 #Product{
-	margin-left: 10px;
+	margin-left: 3%;
 }
 
 .order_questions{
-	width: 190px;
+	width: 20%;
 	float: left;
-	border: 1px solid black;
+	border: 2px solid black;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	text-align: center;
-	margin-left: 15px;
-	background: #E86C19;
+	margin-left: 2%;
+	background: #52A3CC;
 }
 
 .order_questions p{
@@ -417,25 +424,27 @@ label{
 	margin-top: 4.5px;
 }
 
-#contact_info, #contact_info_email{
-	float: left;
-	font-size: .5em;
-	margin-left: 10px;
-	margin-bottom: 8px;
+#contact_info{
+	font-size: .6em;
+}
+
+span{
+	color: #800000;
+	font-size: 1.3em;
 }
 
 .about_us{
 	float: left;
-	border: 1px solid black;
+	border: 2px solid black;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
-	width: 190px;
-	margin-left: 15px;
+	width: 20%;
+	margin-left: 2%;
 	text-align: center;
 	margin-bottom: 15px;
 	margin-top: 12px;
-	background: #FFA319;
+	background: #52A3CC;
 }
 
 .about_us p{
@@ -445,12 +454,12 @@ label{
 /*---------deals with footer---------*/
 
 footer{
-	border: 2px solid black;
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d3d3d3), color-stop(100%, #707070));
- 	background-image: -webkit-linear-gradient(top, #d3d3d3, #707070);
- 	background-image: -moz-linear-gradient(top, #d3d3d3, #707070);
- 	background-image: -ms-linear-gradient(top, #d3d3d3, #707070);
- 	background-image: -o-linear-gradient(top, #d3d3d3, #707070);
+	 border: 2px solid black;
+	 background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #41C7CC), color-stop(100%, #52A3CC));
+	 background-image: -webkit-linear-gradient(top, #41C7CC, #52A3CC);
+	 background-image: -moz-linear-gradient(top, #41C7CC, #52A3CC);
+	 background-image: -ms-linear-gradient(top, #41C7CC, #52A3CC);
+	 background-image: -o-linear-gradient(top, #41C7CC, #52A3CC);
 	width: 80%;
 	margin: 0 auto;
 	padding: 5px;
@@ -468,12 +477,174 @@ footer p{
 }
 
 .footer_nav li{
-	margin-left: 1%;
+	margin-left: 2%;
+	padding-right: 2%;
 	float: left;
-	list-style: none;	
+	list-style: none;
+	border-right: 2px solid #000;	
 }
 
+#footer_border_cleanup{
+	border: none;
+}
 .footer_nav a{
 	color: #000;
 	text-decoration: none;
+}
+
+/*--------------- Media Querries------------*/
+
+/* Tablet portrait style to standard 960 (devices and browsers) */
+@media screen and (min-width: 768px) and (max-width: 959px){
+	header{
+		background: #a8a8a8 url(../images/logo.png) 50% 0 no-repeat scroll !important;
+		background-position:left;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+	 }
+	 
+	header h1{
+		display: none;
+	}
+	
+	nav{
+		margin-top: 70px;
+		margin-left: 13%;
+		margin-bottom: 15px;
+		width: 100%
+	}
+	.marquee{
+		width: 72%;
+	}
+	.videonav_area{
+		margin-left: .5%;
+	}	  
+	
+	.why_order{
+		margin-left: .5%;
+	}	
+	
+	.footer_nav{
+		margin-left: 50%;
+	}  
+}
+	
+/* Mobile landscape size to tablet portrait (devices and browsers)*/
+@media screen and (min-width: 480px) and (max-width: 767px){
+	
+	header{
+		background: #a8a8a8 url(../images/logo.png) 50% 0 no-repeat scroll !important;
+		background-position:left;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+	 }
+	 
+	header h1{
+		display: none;
+	}
+	
+	nav{
+		margin-top: 70px;
+		margin-bottom: 15px;
+		width: 115%
+	}
+
+	.marquee{
+		margin-left: 1%;
+		width:72%;
+	}
+	
+	.videonav_area{
+		margin-left: .5%;
+	}	
+	
+	.video_gallery_container{
+		margin-left: 2%;
+	}  
+	
+	.why_order{
+		margin-left: .5%;
+	}	 
+	
+	.order_form, .about_us, .order_questions{
+		margin-left: 1%;
+	} 
+	
+	.order_form, .why_order{
+		height: 450px;
+	}
+	
+	footer{
+		width: 95%;
+	}
+}
+	
+/* Mobile portrait size to mobile landscape size (devices and browsers) */
+@media only screen and (max-width: 479px){
+		
+	header{
+		background: #a8a8a8 url(../images/logo.png) 50% 0 no-repeat scroll !important;
+		background-position:left;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+	 }
+	 
+	header h1{
+		display: none;
+	}
+	
+	nav{
+		margin-top: 130px;
+		margin-bottom: 10px;
+		width: 98%;
+	}
+	
+	.navigation li{
+		float: none;
+		margin: 0 0 1px 0;
+		padding: 0;
+	}
+
+	.marquee{
+		margin-left: 1%;
+		width:72%;
+	}
+	
+	.videonav_area{
+		margin-left: .5%;
+	}	
+	
+	.video_gallery_container{
+		margin-left: 1%;
+	}  
+	
+	a.videoLink img.play { 
+		position: absolute; 
+		top: 25px; 
+		left: 25px; 
+	}
+	
+	.why_order, .about_us, .order_questions{
+		display: none;
+	}	 
+	
+	.order_form{
+		margin-left: 1%;
+	} 
+	
+	.order_form{
+		width: 98%;
+		float: left;
+		margin-bottom: 4px;
+	}
+	
+	footer{
+		width: 95%;
+	}	
 }
