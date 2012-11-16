@@ -247,7 +247,7 @@ nav{
 	-webkit-border-radius: 4px;
 }
 .video_nav li{
-	list-style-type: none;
+	list-style: none;
 	padding-top: 15px;
 	padding-right: 4px;
 	margin-left: 8%;
